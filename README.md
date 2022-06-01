@@ -1,8 +1,16 @@
 # ubuntu-dotnet
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/trueosiris/ubuntu-dotnet.svg)](https://hub.docker.com/r/trueosiris/ubuntu-dotnet/) [![Docker Stars](https://img.shields.io/docker/stars/trueosiris/ubuntu-dotnet.svg)](https://hub.docker.com/r/trueosiris/ubuntu-dotnet/) [![Docker Automated buil](https://img.shields.io/docker/automated/trueosiris/ubuntu-dotnet.svg)](https://hub.docker.com/r/trueosiris/ubuntu-dotnet/) [![Docker Build Statu](https://img.shields.io/docker/build/trueosiris/ubuntu-dotnet.svg)](https://hub.docker.com/r/trueosiris/ubuntu-dotnet/) ![GitHub last commit](https://img.shields.io/github/last-commit/trueosiris/docker-ubuntu-dotnet.svg)
+![Trueosiris Rules](https://img.shields.io/badge/trueosiris-rules-f08060)
+[![Docker Pulls](https://badgen.net/docker/pulls/trueosiris/ubuntu-dotnet?icon=docker&label=pulls)](https://hub.docker.com/r/trueosiris/ubuntu-dotnet/)
+[![Docker Stars](https://badgen.net/docker/stars/trueosiris/ubuntu-dotnet?icon=docker&label=stars)](https://hub.docker.com/r/trueosiris/ubuntu-dotnet/)
+[![Docker Image Size](https://badgen.net/docker/size/trueosiris/ubuntu-dotnet?icon=docker&label=image%20size)](https://hub.docker.com/r/trueosiris/ubuntu-dotnet/)
+![Github stars](https://badgen.net/github/stars/trueosiris/docker-ubuntu-dotnet?icon=github&label=stars)
+![Github forks](https://badgen.net/github/forks/trueosiris/docker-ubuntu-dotnet?icon=github&label=forks)
+![Github issues](https://img.shields.io/github/issues/TrueOsiris/docker-ubuntu-dotnet)
+![Github last-commit](https://img.shields.io/github/last-commit/TrueOsiris/docker-ubuntu-dotnet)
 
-Stable baseimage with ubuntu 19.10 and dotnet sdk 3.1 for running dotnet libraries in a linux container
+Stable baseimage with ubuntu 22.04 and dotnet sdk 6.0.5 for running dotnet libraries in a linux container<br>
+Also installed: wine, wine64 and mono.
 
      docker run -d --name='ubuntu-dotnet' --net='bridge' -e TZ="Europe/Paris" 'trueosiris/ubuntu-dotnet'
 
