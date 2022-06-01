@@ -43,6 +43,3 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
-CMD ["/start.sh"]
